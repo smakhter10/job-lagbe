@@ -1,0 +1,65 @@
+:root{
+  --green:#0b7a43; --green-dark:#075c31; --red:#e03a31;
+  --ink:#17212b; --muted:#5b6b7a; --bg:#f4f7f5; --card:#ffffff;
+  --line:#dde5df; --amber:#b7791f; --amber-bg:#fdf3e0; --red-bg:#fdeceb;
+  --green-bg:#e6f4ec; --radius:14px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+
+/* header */
+.site-header{background:linear-gradient(135deg,var(--green-dark),var(--green));color:#fff;padding:28px 0 22px}
+.brand{display:flex;gap:14px;align-items:center}
+.brand-mark{font-size:44px;line-height:1}
+.brand h1{margin:0;font-size:34px;letter-spacing:1px}
+.tagline{margin:2px 0 0;opacity:.92;font-size:15px;max-width:640px}
+.stats{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+.stats span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);padding:3px 10px;border-radius:999px;font-size:13px}
+
+/* controls */
+.controls{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin:20px 0 8px;box-shadow:0 1px 3px rgba(20,40,30,.05)}
+.search-row input{width:100%;padding:12px 14px;font-size:16px;border:1.5px solid var(--line);border-radius:10px;outline:none}
+.search-row input:focus{border-color:var(--green)}
+.filter-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:12px;align-items:flex-end}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1.5px solid var(--line);background:#fff;padding:6px 14px;border-radius:999px;cursor:pointer;font-size:14px}
+.chip:hover{border-color:var(--green)}
+.chip.active{background:var(--green);border-color:var(--green);color:#fff}
+.selects{display:flex;gap:12px;flex-wrap:wrap}
+.selects label{font-size:12.5px;color:var(--muted);display:flex;flex-direction:column;gap:3px}
+.selects select{padding:7px 9px;border:1.5px solid var(--line);border-radius:8px;font-size:14px;background:#fff}
+.result-count{margin:12px 2px 0;color:var(--muted);font-size:13.5px}
+
+/* job cards */
+.job-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px;margin:14px 0 26px}
+.job-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;gap:8px;box-shadow:0 1px 3px rgba(20,40,30,.05)}
+.job-card h3{margin:0;font-size:17px;line-height:1.35}
+.company{color:var(--green-dark);font-weight:600;font-size:14.5px}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badge{font-size:12px;padding:2px 9px;border-radius:999px;border:1px solid var(--line);background:#f2f5f3;color:var(--muted)}
+.badge.cat{border-color:#cfe3d6;color:var(--green-dark);background:var(--green-bg)}
+.badge.open{background:var(--green-bg);color:var(--green-dark);border-color:#bfe0cd}
+.badge.check{background:var(--amber-bg);color:var(--amber);border-color:#ecd9ac}
+.badge.closed{background:var(--red-bg);color:var(--red);border-color:#f3c1bd}
+.salary{font-weight:700;font-size:15px}
+.salary.none{font-weight:400;color:var(--muted);font-size:13.5px}
+.details{color:#33424f;font-size:14px;margin:0}
+.meta{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.found{color:var(--muted);font-size:12.5px}
+.apply{background:var(--green);color:#fff;text-decoration:none;padding:8px 16px;border-radius:9px;font-weight:600;font-size:14px;white-space:nowrap}
+.apply:hover{background:var(--green-dark)}
+.apply.disabled{background:#aebbb3;pointer-events:none}
+.empty{text-align:center;color:var(--muted);padding:36px 0}
+
+/* how + footer */
+.how{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;margin-bottom:30px}
+.how h2{margin:0 0 8px;font-size:18px}
+.how ul{margin:0;padding-left:20px;color:#33424f;font-size:14.5px}
+.site-footer{border-top:1px solid var(--line);padding:16px 0 26px;color:var(--muted);font-size:13.5px;text-align:center}
+
+@media (max-width:560px){
+  .brand h1{font-size:27px}
+  .brand-mark{font-size:34px}
+  .job-grid{grid-template-columns:1fr}
+}
