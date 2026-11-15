@@ -1,4 +1,4 @@
-const CATEGORIES = ["All", "Client & Business", "WordPress & Web", "Teaching"];
+const CATEGORIES = ["All", "WordPress", "Shopify", "WIX", "Frontend", "UI/UX", "Client Communication", "MTO", "SEO", "Google Ads", "Teaching"];
 const state = { q: "", category: "All", location: "all", status: "active", sort: "newest" };
 let JOBS = [];
 
