@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JOB LAGBE — Jobs for Bangladesh & Remote Worldwide</title>
+<meta name="description" content="A friendly, hand-checked job board: client communication, WordPress and teaching roles in Bangladesh and fully remote worldwide. Updated daily.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <span class="brand-mark">💼</span>
+      <div>
+        <h1>JOB LAGBE</h1>
+        <p class="tagline">Job lagbe? Ekhanei paben. Hand-checked jobs for Bangladesh &amp; remote worldwide — updated daily.</p>
+      </div>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls" aria-label="Search and filters">
+    <div class="search-row">
+      <input id="search" type="search" placeholder="Search jobs — try “WordPress”, “customer success”, “Dhaka”, “Elementor”…" autocomplete="off">
+    </div>
+    <div class="filter-row">
+      <div class="chips" id="categoryChips" role="group" aria-label="Category"></div>
+      <div class="selects">
+        <label>Location
+          <select id="locationFilter">
+            <option value="all">All locations</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Remote">Remote</option>
+          </select>
+        </label>
+        <label>Status
+          <select id="statusFilter">
+            <option value="active" selected>Active (open + check)</option>
+            <option value="open">Verified open</option>
+            <option value="check">Check before applying</option>
+            <option value="closed">Closed / expired</option>
+            <option value="all">All statuses</option>
+          </select>
+        </label>
+        <label>Sort
+          <select id="sortOrder">
+            <option value="newest" selected>Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <p class="result-count" id="resultCount"></p>
+  </section>
+
+  <section id="jobGrid" class="job-grid" aria-live="polite"></section>
+  <p id="emptyState" class="empty" hidden>No jobs match your search. Try a different keyword or clear the filters.</p>
+
+  <section class="how">
+    <h2>How this board works</h2>
+    <ul>
+      <li>Every job here was found and checked by a person (with an AI assistant) — postings are opened and read, not scraped blindly.</li>
+      <li><strong>Verified open</strong> means the posting was live with a working apply route on the date shown. <strong>Check before applying</strong> means some detail (eligibility, salary, or the posting itself) could not be fully confirmed — read the card notes.</li>
+      <li>Jobs can close at any time, so always confirm on the employer's page before spending time on an application.</li>
+      <li>New jobs are added daily. Found a mistake? Tell the person who shared this board with you.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>JOB LAGBE — a small, friendly job board curated daily. Data last updated: <span id="updatedAt">—</span></p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
