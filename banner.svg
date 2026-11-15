@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" role="img" aria-label="JOB LAGBE banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064e2a"/>
+      <stop offset="0.55" stop-color="#0b7a43"/>
+      <stop offset="1" stop-color="#0e9a57"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <circle cx="1420" cy="40" r="190" fill="#ffffff" opacity="0.07"/>
+  <circle cx="1520" cy="330" r="130" fill="#ffffff" opacity="0.06"/>
+  <circle cx="120" cy="390" r="110" fill="#000000" opacity="0.08"/>
+  <circle cx="1335" cy="105" r="34" fill="#e03a31"/>
+  <g font-family="Poppins, Arial, sans-serif">
+    <text x="90" y="150" font-size="88" font-weight="700" fill="#ffffff" letter-spacing="2">JOB LAGBE</text>
+    <text x="94" y="205" font-size="34" fill="#d9f2e3">Job lagbe? Ekhanei paben.</text>
+    <text x="94" y="252" font-size="27" fill="#bfe6cf">Hand-checked jobs for Bangladesh &amp; remote worldwide — updated daily</text>
+    <g font-size="24" font-weight="600">
+      <g><rect x="94" y="292" width="178" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="118" y="323" fill="#ffffff">WordPress</text></g>
+      <g><rect x="288" y="292" width="140" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="312" y="323" fill="#ffffff">Shopify</text></g>
+      <g><rect x="444" y="292" width="140" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="468" y="323" fill="#ffffff">Frontend</text></g>
+      <g><rect x="600" y="292" width="118" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="624" y="323" fill="#ffffff">UI/UX</text></g>
+      <g><rect x="734" y="292" width="96" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="758" y="323" fill="#ffffff">SEO</text></g>
+      <g><rect x="846" y="292" width="176" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="870" y="323" fill="#ffffff">Google Ads</text></g>
+      <g><rect x="1038" y="292" width="100" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="1062" y="323" fill="#ffffff">MTO</text></g>
+      <g><rect x="1154" y="292" width="150" height="46" rx="23" fill="#ffffff" opacity="0.16"/><text x="1178" y="323" fill="#ffffff">Teaching</text></g>
+    </g>
+  </g>
+</svg>
