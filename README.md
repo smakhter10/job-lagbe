@@ -1,6 +1,6 @@
 # JOB LAGBE 💼
 
-A small, friendly, hand-checked job board for Bangladesh and fully remote roles worldwide — client communication / business development, WordPress & web, and English-medium teaching jobs.
+A small, friendly, hand-checked job board for Bangladesh and fully remote roles worldwide — ten categories: WordPress, Shopify, WIX, Frontend, UI/UX, Client Communication, MTO, SEO, Google Ads and Teaching. Newest jobs first.
 
 **Live site:** deploy this repo on Vercel (no build step — it is a plain static site).
 
