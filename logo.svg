@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="JOB LAGBE logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b7a43"/>
+      <stop offset="1" stop-color="#075c31"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="112" height="112" rx="26" fill="url(#g)"/>
+  <rect x="28" y="46" width="64" height="46" rx="9" fill="#ffffff"/>
+  <path d="M44 46v-6a8 8 0 0 1 8-8h16a8 8 0 0 1 8 8v6h-9v-6a3 3 0 0 0-3-3H56a3 3 0 0 0-3 3v6z" fill="#ffffff"/>
+  <rect x="28" y="63" width="64" height="7" fill="#0b7a43"/>
+  <rect x="55" y="60" width="10" height="12" rx="2" fill="#0b7a43"/>
+  <circle cx="88" cy="30" r="11" fill="#e03a31"/>
+  <path d="M82.5 30.2l3.8 3.8 7-7.4" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
