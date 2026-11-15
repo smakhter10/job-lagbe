@@ -5,14 +5,17 @@
   --green-bg:#e6f4ec; --radius:14px;
 }
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+body{margin:0;font-family:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+button,input,select{font-family:inherit}
 .wrap{max-width:1080px;margin:0 auto;padding:0 16px}
 
 /* header */
 .site-header{background:linear-gradient(135deg,var(--green-dark),var(--green));color:#fff;padding:28px 0 22px}
 .brand{display:flex;gap:14px;align-items:center}
-.brand-mark{font-size:44px;line-height:1}
-.brand h1{margin:0;font-size:34px;letter-spacing:1px}
+.logo{width:58px;height:58px;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.25);flex:none}
+.brand h1{margin:0;font-size:34px;letter-spacing:1px;font-weight:800}
+.banner-wrap{margin-top:18px}
+.banner{display:block;width:100%;height:auto;border-radius:var(--radius);box-shadow:0 4px 16px rgba(0,0,0,.22)}
 .tagline{margin:2px 0 0;opacity:.92;font-size:15px;max-width:640px}
 .stats{margin-top:14px;display:flex;gap:8px;flex-wrap:wrap}
 .stats span{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);padding:3px 10px;border-radius:999px;font-size:13px}
@@ -60,6 +63,6 @@ body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica N
 
 @media (max-width:560px){
   .brand h1{font-size:27px}
-  .brand-mark{font-size:34px}
+  .logo{width:46px;height:46px}
   .job-grid{grid-template-columns:1fr}
 }
