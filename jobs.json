@@ -2244,6 +2244,42 @@
       "details": "live listing 2026-11-16 via Jobgether, full-time remote, US client hours, 2+ yrs, salary not listed; eligibility for Bangladesh UNCONFIRMED (preferred regions: LATAM, South Africa, Philippines, Pakistan)",
       "url": "https://jobgether.com/offer/6a7a42f4490731f1e1930cdf-wordpress-developer",
       "status": "check"
+    },
+    {
+      "dateFound": "2026-11-16",
+      "title": "Online Tutor — Cambridge International A Level Further Mathematics (9231)",
+      "company": "Tutopiya",
+      "category": "Teaching",
+      "locationType": "Remote",
+      "salary": "You set your rate; students typically pay USD 12-148/hr, monthly via Wise in BDT",
+      "details": "live-verified OPEN 2026-11-16 (rolling, no deadline); 7 student requests Jul-Sep 2026; teach 1:1 online from Bangladesh, Singapore/UAE evening lessons fall in Dhaka evening; Further Maths is advanced (matrices, complex numbers, advanced calculus) - a step above standard A Level Maths |",
+      "url": "https://www.tutopiya.com/become-a-tutor/online-cambridge-international-a-level-further-mathematics-tutor-jobs-in-bangladesh/",
+      "status": "open",
+      "id": 188
+    },
+    {
+      "dateFound": "2026-11-16",
+      "title": "Online Part-time IGCSE Add Math (0606) Tutor",
+      "company": "IGCSE Add Math (igcseaddmath.com.my)",
+      "category": "Teaching",
+      "locationType": "Remote",
+      "salary": "From RM80/hr",
+      "details": "live-verified OPEN 2026-11-16 (published 5 Nov 2026, no deadline stated); part-time freelance, 1.5-hr 1:1 classes, evening/weekend slots; apply via WhatsApp; selection includes a 0606 mark-scheme check and observed lesson; eligibility for Bangladesh unconfirmed |",
+      "url": "https://www.igcseaddmath.com.my/careers/online-part-time-add-math-tutor/",
+      "status": "open",
+      "id": 189
+    },
+    {
+      "dateFound": "2026-11-16",
+      "title": "Online Mathematics Tutor (part-time)",
+      "company": "Edustar Malaysia",
+      "category": "Teaching",
+      "locationType": "Remote",
+      "salary": "RM23 to RM36 per hour",
+      "details": "live-verified OPEN 2026-11-16 (posting updated 14 Nov 2026, recruiting all year); part-time, hours you choose, online from Malaysia or abroad; covers IGCSE 0580 & 0606, IB, SPM, STPM; Malaysian weekday evenings (UTC+8) = Dhaka late afternoon/evening; needs stylus/pen tablet + shared whiteboard; same platform as IGCSE lead sent 10 Nov, this is the fresh maths-specific posting |",
+      "url": "https://edustar.my/en/tutor/maths/online",
+      "status": "open",
+      "id": 190
     }
   ]
 }
